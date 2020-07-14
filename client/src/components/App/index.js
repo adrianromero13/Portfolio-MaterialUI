@@ -6,6 +6,7 @@ import Contact from '../../containers/Contact';
 import Navbar from '../NavBar';
 // import Footer from '../Footer';
 import PortfolioPage from '../PortfolioPage';
+import UploadImages from '../../containers/UploadImages';
 
 
 
@@ -13,9 +14,10 @@ import PortfolioPage from '../PortfolioPage';
 const App = props => (
   <Router>
     <Navbar />
-    <Route exact path="/" component={About}/>
-    <Route exact path="/Contact" component={Contact}/>
-    <Route exact path="/Portfolio" component={PortfolioPage}/>
+    <Route exact path="/" component={About} />
+    <Route exact path="/Contact" component={Contact} />
+    <Route exact path="/Portfolio" component={PortfolioPage} />
+    <Route exact path='/uploads' component={UploadImages} />
     {/* <Footer/> */}
   </Router>
 );

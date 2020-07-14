@@ -4,14 +4,16 @@ const { Schema, model } = mongoose;
 const ImageSchema = new Schema({
   name: {
     type: String,
+    default: 'none',
     unique: true,
+    required: true,
   },
   description: {
     type: String,
   },
-  img: {
-    dtat: Buffer,
-    contentType: String,
+  imageData: {
+    type: String,
+    required: true,
   }
 });
 

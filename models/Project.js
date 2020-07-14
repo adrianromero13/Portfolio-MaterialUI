@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+const { Image } = require('./Image');
+
 const { Schema, model } = mongoose;
 
 const ProjectSchema = new Schema({

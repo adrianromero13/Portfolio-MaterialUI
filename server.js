@@ -2,21 +2,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
-const fs = require('fs');
-const path = require('path');
-const multer = require('multer');
 
 require('dotenv/config');
 
-const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, 'uploads')
-  },
-  filename: (req, file, cb) => {
-    cb(null, file.fieldname + '-' + Date.now())
-  }
-});
-const upload = multer({ storage: storage });
 
 const routes = require('./routes');
 

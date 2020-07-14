@@ -18,6 +18,11 @@ const ProjectSchema = new Schema({
     type: String,
     required: true,
   },
+  projectURL: {
+    type: String,
+    unique: true,
+    required: true,
+  },
 });
 
 module.exports = model('Project', ProjectSchema);

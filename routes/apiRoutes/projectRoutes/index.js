@@ -1,4 +1,8 @@
 const router = require('express').Router();
-// set up controller variables
+
+const { getProjects } = require('../../../controllers/projectController');
+
+router.route('/')
+  .get(getProjects);
 
 module.exports = router;

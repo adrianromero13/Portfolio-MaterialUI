@@ -1,5 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+
+const fs = require('fs');
+const path = require('path');
+require('dotenv/config');
 
 // const routes = require('./routes');
 

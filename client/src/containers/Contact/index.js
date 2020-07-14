@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from '@testing-library/react';
 
-import ContactForm from './../../components/ContactForm';
+import ContactForm from '../../components/ContactForm';
 
 class Contact extends Component {
     state = {

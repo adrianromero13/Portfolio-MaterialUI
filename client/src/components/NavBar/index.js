@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './../../assets/Styles/styles.css';
+import '../../assets/Styles/styles.css';
 
 // import './NavBar.css';
 

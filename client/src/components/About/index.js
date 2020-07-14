@@ -1,7 +1,7 @@
 import React from 'react';
 
-import GrizleyPeak from './../../assets/Images/GrizleyPeak.jpg';
-import './../../assets/Styles/styles.css';
+import GrizleyPeak from '../../assets/Images/GrizleyPeak.jpg';
+import '../../assets/Styles/styles.css';
 
 
 const About = props => (

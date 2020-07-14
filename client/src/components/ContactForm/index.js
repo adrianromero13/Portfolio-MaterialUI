@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './../../assets/Styles/styles.css';
+import '../../assets/Styles/styles.css';
 
 const ContactForm = (props) => (
     <div className="ownBackground">

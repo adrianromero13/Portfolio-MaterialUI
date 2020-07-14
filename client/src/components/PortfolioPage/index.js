@@ -1,12 +1,12 @@
 import React from 'react';
 
 //images imported from assets
-import Camera from './../../assets/Images/camera.jpg';
-import JSQuiz from './../../assets/Images/JSQuiz.png';
-import EmployeeTracker from './../../assets/Images/employeeTracker.png';
-import DailyPlanner from './../../assets/Images/dailyPlanner.png';
-import FridgeRaider from './../../assets/Images/fridgeraider.jpg';
-import RandomPassword from './../../assets/Images/randomPassword.png';
+import Camera from '../../assets/Images/camera.jpg';
+import JSQuiz from '../../assets/Images/JSQuiz.png';
+import EmployeeTracker from '../../assets/Images/employeeTracker.png';
+import DailyPlanner from '../../assets/Images/dailyPlanner.png';
+import FridgeRaider from '../../assets/Images/fridgeraider.jpg';
+import RandomPassword from '../../assets/Images/randomPassword.png';
 
 
 

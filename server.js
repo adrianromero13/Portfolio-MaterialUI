@@ -34,4 +34,4 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/portfolioWork',
     useFindAndModify: false,
   });
 
-app.listen(PORT);
+app.listen(PORT, console.log(`Listening on PORT: ${PORT}`));

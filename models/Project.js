@@ -23,6 +23,10 @@ const ProjectSchema = new Schema({
     unique: true,
     required: true,
   },
+  herokuURL: {
+    type: String,
+    unique: true,
+  },
 });
 
 module.exports = model('Project', ProjectSchema);

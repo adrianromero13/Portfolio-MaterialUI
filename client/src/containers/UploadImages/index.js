@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
 
+import DefaultImg from '../../assets/Images/logo192.png';
+
 class UploadImages extends Component {
   // set up using react super props
   // then reestablish using redux thunk and store
+
   constructor(props) {
     super(props);
+
 
     this.state = {
       multerImage: DefaultImg,
@@ -65,20 +69,18 @@ class UploadImages extends Component {
   render() {
     return (
       <div>
-        <div>
-          <h4>Use Milter to upload image</h4>
-          <p>upload image to mongoDB using multer in node.js</p>
-        </div>
-        <div>
+        <div className='process'>
+          <h4 className='process__heading'>Use Milter to upload image</h4>
+          <p className='process__details'>upload image to mongoDB using multer in node.js</p>
           <input
             type='file'
-            className='process-upload-btn'
+            className='process__upload-btn'
             onChange={(e) => this.uploadImage(e, 'multer')}
           />
           <img
             src={this.state.multerImage}
-            alt='uploadedImage'
-            className='process-image'
+            alt='upload-img'
+            className='process__image'
           />
         </div>
         {/* <div classname='process-upload-btn'>
@@ -86,8 +88,8 @@ class UploadImages extends Component {
           type='file'
           multiple={false}
           onDone={this.getBaseFile.bind(this)} 
-          /> */}
-        </div>
+          />
+        </div> */}
       </div>
     )
   }
